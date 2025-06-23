@@ -24,3 +24,31 @@
 - Prometheus, Grafana, ELK
 - Bash scripting
 - Git, GitHub
+
+
+
+DevOps-Portfolio/
+├── fintech-api/                # کد اپلیکیشن و Dockerfile
+│   ├── app/
+│   ├── DockerFolder
+    |   ├── DockerFile
+│   └── README.md
+│
+├── k8s/                       # فایل‌های Kubernetes (yaml)
+│   ├── deployment.yaml
+│   ├── service.yaml
+│   ├── configmap.yaml
+│   ├── secret.yaml
+│   └── README.md
+│
+├── cicd/                      # پیکربندی CI/CD (GitHub Actions یا Jenkinsfile)
+│   ├── .github/workflows/ci.yml
+│   └── README.md
+│
+├── monitoring/                # مانیتورینگ و لاگینگ
+│   ├── prometheus/
+│   ├── grafana/
+│   ├── elk/
+│   └── README.md
+│
+└── README.md                 # توضیح کلی پروژه
